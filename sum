@@ -1,0 +1,12 @@
+# 二维列表操作示例
+data = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+
+# 计算每行的总和并存储到列表中
+row_sums = []
+for row in data:
+    row_sum = sum(row)
+    row_sums.append(row_sum)
+
+# 打印每行的总和
+for i, row_sum in enumerate(row_sums):
+    print(f"Sum of row {i+1}: {row_sum}")
